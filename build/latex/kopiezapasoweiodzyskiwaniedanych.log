@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.1)  18 JUN 2026 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.1)  18 JUN 2026 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,44 +996,74 @@ Rozdzia\l  3.
 [33]
 
 [34]
+<schemat_chen.png, id=735, 1959.57094pt x 1318.17468pt>
+File: schemat_chen.png Graphic file (type png)
+<use schemat_chen.png>
+Package pdftex.def Info: schemat_chen.png  used on input line 2286.
+(pdftex.def)             Requested size: 335.80524pt x 225.87685pt.
 
-LaTeX Warning: File `{_static/schemat_chen}.png' not found on input line 2286.
+
+[35 <./schemat_chen.png (PNG copy)>]
+<schemat_ie.png, id=742, 1207.51125pt x 671.50874pt>
+File: schemat_ie.png Graphic file (type png)
+<use schemat_ie.png>
+Package pdftex.def Info: schemat_ie.png  used on input line 2314.
+(pdftex.def)             Requested size: 335.80524pt x 186.74037pt.
 
 
-LaTeX Warning: File `{_static/schemat_chen}.png' not found on input line 2286.
+[36 <./schemat_ie.png>]
+Rozdzia\l  4.
 
 
-! Package pdftex.def Error: File `_static/schemat_chen.png' not found: using dr
-aft setting.
+[37
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2286 ...0\linewidth]{{_static/schemat_chen}.png}
-                                                  
-? c
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.2286 ...0\linewidth]{{_static/schemat_chen}.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+]
+Underfull \vbox (badness 1097) detected at line 2429
+ []
 
- 
+
+
+[38]
+
+[39]
+
+[40]
+Rozdzia\l  5.
+(./kopiezapasoweiodzyskiwaniedanych.ind)
+
+[41
+
+] (./kopiezapasoweiodzyskiwaniedanych.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `kopiezapasoweiodzyskiwaniedanych.out' has no
+t changed.
+(rerunfilecheck)             Checksum: 2AB535329E462EA776385E12E28F9F10;26347.
+ ) 
 Here is how much of TeX's memory you used:
- 20582 strings out of 473197
- 367554 string characters out of 5718606
- 784776 words of memory out of 5000000
- 43200 multiletter control sequences out of 15000+600000
+ 20798 strings out of 473197
+ 374969 string characters out of 5718606
+ 818577 words of memory out of 5000000
+ 43400 multiletter control sequences out of 15000+600000
  628183 words of font info for 96 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,11n,82p,1221b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
+ee-Solid.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share
+/texmf/fonts/type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/fonts/type1/publ
+ic/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></u
+sr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/typ
+e1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1
+xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb>
+Output written on kopiezapasoweiodzyskiwaniedanych.pdf (45 pages, 595999 bytes)
+.
+PDF statistics:
+ 872 PDF objects out of 1000 (max. 8388607)
+ 795 compressed objects within 8 object streams
+ 223 named destinations out of 1000 (max. 500000)
+ 927 words of extra memory for PDF output out of 10000 (max. 10000000)
+
