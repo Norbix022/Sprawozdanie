@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Kopie zapasowe i odzyskiwanie danych'
-copyright = '2026, Gal Anonim'
-author = 'Gal Anonim'
-release = '0.0.1'
+project = 'Sprawozdanie z laboratorium'
+copyright = '2026, Norbert Antonovitch'
+author = 'Norbert Antonovitch'
+release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
