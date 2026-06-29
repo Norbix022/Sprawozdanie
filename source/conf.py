@@ -3,7 +3,6 @@
 import os
 import sys
 
-# Dodanie ścieżki do obecnego katalogu (source/) ORAZ nadrzędnego (główny folder projektu)
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 
@@ -13,10 +12,8 @@ copyright = '2026, Norbert Antonovitch'
 author = 'Norbert Antonovitch'
 
 # -- General configuration ---------------------------------------------------
-# Zostawiamy język polski, żeby tłumaczył "Chapter" na "Rozdział"
 language = 'pl'
 
-# Dodanie rozszerzenia autodoc
 extensions = [
     'sphinx.ext.autodoc'
 ]
@@ -32,8 +29,7 @@ html_static_path = ['_static']
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '11pt',
-    # PRZYWRACAMY STYL BJARNE (Kreski i wyrównanie do prawej)
-    'fncychap': '\\usepackage[Bjarne]{fncychap}',
+    'fncychap': '\\usepackage[Sonny]{fncychap}',
     'extraclassoptions': 'openany,oneside',
     'printindex': '',
     'preamble': r'''
@@ -43,14 +39,11 @@ latex_elements = {
 \setcounter{tocdepth}{2}
 \raggedbottom
 
-% TWARDY RESET INDEKSU - zmusza LaTeXa do zignorowania komendy generującej spis
 \renewcommand{\printindex}{}
 
-% Zmniejszenie przestrzeni przed nagłówkami
 \setlength{\parskip}{0pt plus 1pt}
 \setlength{\parindent}{0pt}
 
-% Zwiększenie wysokości headera
 \setlength{\headheight}{14.49998pt}
 ''',
     'sphinxsetup': 'hmargin={0.7in,0.7in}, vmargin={0.7in,0.7in}, verbatimwithframe=false',
