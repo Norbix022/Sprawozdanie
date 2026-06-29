@@ -9,11 +9,13 @@ sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
-project = 'Sprawozdanie-z-laboratoriów'
+project = 'Sprawozdanie-z-laboratorium'
 copyright = '2026, Norbert Antonovitch'
 author = 'Norbert Antonovitch'
 
 # -- General configuration ---------------------------------------------------
+language = 'pl'
+
 # Dodanie rozszerzenia autodoc
 extensions = [
     'sphinx.ext.autodoc'
@@ -31,7 +33,7 @@ html_static_path = ['_static']
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '11pt',
-    'fncychap': '\\usepackage[Bjarne]{fncychap}',
+    'fncychap': '',
     'extraclassoptions': 'openany,oneside',
     'printindex': '',
     'preamble': r'''
