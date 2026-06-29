@@ -36,6 +36,7 @@ latex_elements = {
 \usepackage{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{xurl}
 \setcounter{tocdepth}{2}
 \raggedbottom
 
