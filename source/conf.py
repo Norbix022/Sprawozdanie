@@ -56,9 +56,9 @@ latex_elements = {
 latex_documents = [
     (
         'index', 
-        'sprawozdanie-z-laboratoriow.tex', 
+        '276209-bazy-danych-sprawozdanie.tex', 
         'Sprawozdanie z Laboratorium: Bazy Danych',
-        'Norbert Antonovitch',  # Combined authors into one string
+        'Norbert Antonovitch (276209)',  # Combined authors into one string
         'manual'              # This is now correctly the documentclass
     ),
 ]
