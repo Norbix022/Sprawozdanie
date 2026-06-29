@@ -24,20 +24,20 @@ Na podstawie przeprowadzonych zajęć laboratoryjnych i eksperymentów z modelam
 Wykaz repozytoriów
 ==================
 
-1. Główne repozytorium sprawozdania
------------------------------------
+Główne repozytorium sprawozdania
+--------------------------------
 Poniżej znajduje się link do mojego repozytorium z kodem sprawozdania wygenerowanego przy użyciu kompilatora Sphinx:
 
 * **Link:** https://github.com/Norbix022/Sprawozdanie
 
-2. Repozytorium z modelami fizycznymi bazy
-------------------------------------------
+Repozytorium z modelami fizycznymi bazy
+---------------------------------------
 Odnośnik do repozytorium zawierającego kody źródłowe, modele fizyczne oraz skrypty inicjalizujące bazę danych:
 
 * **Link:** https://github.com/Koko9077/Model-fizyczny-baz
 
-3. Repozytoria reszty grupy (badania literaturowe)
---------------------------------------------------
+Repozytoria reszty grupy (badania literaturowe)
+-----------------------------------------------
 Poniżej zestawiono odnośniki do publicznych repozytoriów prowadzonych przez resztę grupy, w których poruszono dodatkowe zagadnienia techniczne:
 
 * **Grupa 1: Sprzęt dla bazy danych** https://github.com/karaskamil/Sprzet-dla-bazy-danych.git
