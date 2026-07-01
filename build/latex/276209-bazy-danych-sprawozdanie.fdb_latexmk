@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex 276209-bazy-danych-sprawozdanie.idx"] 1782753258.37331 "276209-bazy-danych-sprawozdanie.idx" "276209-bazy-danych-sprawozdanie.ind" "276209-bazy-danych-sprawozdanie" 1782753262.48104 0
-  "276209-bazy-danych-sprawozdanie.idx" 1782753262.34919 2042 24a27b11600d5cf083911fa53f923fc6 "pdflatex"
+["makeindex 276209-bazy-danych-sprawozdanie.idx"] 1782941670.4549 "276209-bazy-danych-sprawozdanie.idx" "276209-bazy-danych-sprawozdanie.ind" "276209-bazy-danych-sprawozdanie" 1782941674.71282 0
+  "276209-bazy-danych-sprawozdanie.idx" 1782941674.57067 2042 24a27b11600d5cf083911fa53f923fc6 "pdflatex"
   (generated)
   "276209-bazy-danych-sprawozdanie.ilg"
   "276209-bazy-danych-sprawozdanie.ind"
   (rewritten before read)
-["pdflatex"] 1782753260.4496 "276209-bazy-danych-sprawozdanie.tex" "276209-bazy-danych-sprawozdanie.pdf" "276209-bazy-danych-sprawozdanie" 1782753262.48139 0
+["pdflatex"] 1782941672.64467 "276209-bazy-danych-sprawozdanie.tex" "276209-bazy-danych-sprawozdanie.pdf" "276209-bazy-danych-sprawozdanie" 1782941674.71305 0
   "/etc/texmf/web2c/texmf.cnf" 1782742944.60498 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -165,15 +165,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1782742956.1125 134010 f1887e56959c0569e2f0dd6e19ae604f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1782743003 6814154 7fb58e0b299d533c9579aa466614eea4 ""
-  "276209-bazy-danych-sprawozdanie.aux" 1782753262.34419 46660 2c2fc47b5c816c2565af62c3ae322aad "pdflatex"
-  "276209-bazy-danych-sprawozdanie.ind" 1782753258.39136 1749 4f250a3368e3ea729b0198e5fd3293c3 "makeindex 276209-bazy-danych-sprawozdanie.idx"
-  "276209-bazy-danych-sprawozdanie.out" 1782753262.34919 35530 23fc5c3fec6803ef2fa24208d4e2b0ec "pdflatex"
-  "276209-bazy-danych-sprawozdanie.tex" 1782753256.01334 207998 5dd97f11a75861c4db9fc5812bb6e22e ""
-  "276209-bazy-danych-sprawozdanie.toc" 1782753262.34919 14558 b23e05cfbeeee58d635e988bb1ebcbd6 "pdflatex"
+  "276209-bazy-danych-sprawozdanie.aux" 1782941674.56567 46625 c63959c169a43ca97008fd33421abe08 "pdflatex"
+  "276209-bazy-danych-sprawozdanie.ind" 1782941670.47449 1749 4f250a3368e3ea729b0198e5fd3293c3 "makeindex 276209-bazy-danych-sprawozdanie.idx"
+  "276209-bazy-danych-sprawozdanie.out" 1782941674.57067 35469 8b472a2dd81bbb23289e811a25947e61 "pdflatex"
+  "276209-bazy-danych-sprawozdanie.tex" 1782941668.25797 208259 d334ae929ada04dc4323cc9253a192ae ""
+  "276209-bazy-danych-sprawozdanie.toc" 1782941674.57067 14546 f2065f6adec17f721acb8466c6bf9b30 "pdflatex"
   "schemat_chen.png" 1782743799.92346 173730 7e20d79dbcddd21bd956dadf253d3446 ""
   "schemat_ie.png" 1782743799.92346 105378 231b44fcf62b5b96f896cce6866283aa ""
   "sphinx.sty" 1711055942 44560 f9fbf51072c954d129c9bd5284cc4ccf ""
-  "sphinxhighlight.sty" 1782753255.69318 7553 83fb52292c17957d9f4aadcb28c57a87 ""
+  "sphinxhighlight.sty" 1782941667.94266 7553 83fb52292c17957d9f4aadcb28c57a87 ""
   "sphinxlatexadmonitions.sty" 1711055942 10989 c38302e64c2bb47779f086869b246760 ""
   "sphinxlatexcontainers.sty" 1711055942 901 d3a3a1b7b2547f47ade2499350b5c420 ""
   "sphinxlatexgraphics.sty" 1711055942 4840 a9578332b6f3b35e198751fb632c9b79 ""
@@ -188,7 +188,7 @@
   "sphinxlatexstyletext.sty" 1711055942 8589 a7e8f95eb4fef6c1cd2623cd417d6467 ""
   "sphinxlatextables.sty" 1711055942 57830 16f2773b765508003aec5d08680f39b9 ""
   "sphinxmanual.cls" 1711055942 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
-  "sphinxmessages.sty" 1782753256.01918 743 31c217da39d039fd875c9cfed0d1a0d3 ""
+  "sphinxmessages.sty" 1782941668.26366 743 31c217da39d039fd875c9cfed0d1a0d3 ""
   "sphinxoptionsgeometry.sty" 1711055942 2061 47bb34b8ed8a78823eb0c886abfb9f4d ""
   "sphinxoptionshyperref.sty" 1711055942 1094 79beb8b8a3f10784f8cce804e0f9d3aa ""
   "sphinxpackageboxes.sty" 1711055942 36615 1d74c63e665ede6c648fa08c42ea70fb ""

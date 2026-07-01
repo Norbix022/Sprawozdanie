@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.29)  29 JUN 2026 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.29)  1 JUL 2026 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,11 +925,11 @@ L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `276209-bazy-danych-sprawozdanie.out' has not
  changed.
-(rerunfilecheck)             Checksum: 23FC5C3FEC6803EF2FA24208D4E2B0EC;35530.
+(rerunfilecheck)             Checksum: 8B472A2DD81BBB23289E811A25947E61;35469.
  ) 
 Here is how much of TeX's memory you used:
  17107 strings out of 476147
- 289073 string characters out of 5794719
+ 289062 string characters out of 5794719
  1998975 words of memory out of 5000000
  38414 multiletter control sequences out of 15000+600000
  629563 words of font info for 104 fonts, out of 8000000 for 9000
@@ -944,7 +944,7 @@ texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public
 fonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xt
 t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb>
-Output written on 276209-bazy-danych-sprawozdanie.pdf (50 pages, 638736 bytes).
+Output written on 276209-bazy-danych-sprawozdanie.pdf (50 pages, 638941 bytes).
 
 PDF statistics:
  1152 PDF objects out of 1200 (max. 8388607)
