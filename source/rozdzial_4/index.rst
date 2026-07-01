@@ -107,25 +107,23 @@ Wariant SQLite został dostosowany do prostszego modelu typów danych oferowaneg
       FOREIGN KEY (id_produktu) REFERENCES produkty(id_produktu)
    );
 
-Wybór mechanizmów wsadowego wprowadzania danych
------------------------------------------------
+Wybór mechanizmu wprowadzania danych
+------------------------------------
 
-W celu sprawnego zainicjowania bazy danymi testowymi zrezygnowano z ręcznego przygotowywania pojedynczych instrukcji ``INSERT`` na rzecz automatyzacji realizowanej w języku Python. Dane wejściowe przygotowano w postaci pliku ``JSON``, co umożliwiło jego łatwe przetwarzanie i przenoszenie pomiędzy wariantami bazy.
+W celu zainicjowania bazy danymi testowymi zdecydowano się na wykorzystanie klasycznych, pojedynczych instrukcji ``INSERT`` w języku SQL. Wybór tego bezpośredniego podejścia podyktowany był niewielkim rozmiarem przygotowanego zbioru danych, który służył jedynie do weryfikacji poprawności struktury logicznej i więzów integralności w środowiskach PostgreSQL oraz SQLite. Wykonanie zwykłych skryptów SQL pozwoliło na szybkie zasilenie tabel i natychmiastowe przetestowanie relacji.
 
-Do komunikacji z obiema bazami wykorzystano odpowiednie interfejsy programistyczne: moduł ``sqlite3`` dla SQLite oraz bibliotekę ORM ``SQLAlchemy`` dla PostgreSQL. Istotnym elementem implementacji było zastosowanie wstawiania wsadowego przy użyciu funkcji ``executemany()``. Mechanizm ten pozwala przesyłać wiele rekordów w ramach jednego wywołania, co ogranicza narzut komunikacyjny i skraca czas zasilania bazy danymi.
-
-Zastosowanie podejścia wsadowego ma szczególne znaczenie w przypadku większej liczby rekordów, ponieważ redukuje liczbę pojedynczych operacji na serwerze i pozwala lepiej wykorzystać mechanizm transakcyjny systemu zarządzania bazą danych. W praktyce przekłada się to na większą wydajność niż przy ręcznym wykonywaniu kolejnych poleceń ``INSERT``.
+Należy jednak wyraźnie zaznaczyć, że w docelowych aplikacjach produkcyjnych lub przy pracy z większymi wolumenami danych, ręczne przygotowywanie instrukcji ``INSERT`` jest skrajnie nieefektywne. W takich scenariuszach optymalną praktyką jest agregacja danych wejściowych w ustrukturyzowanych plikach, takich jak ``JSON`` lub ``CSV``. Pozwala to na pełną automatyzację za pomocą dedykowanych skryptów (np. w języku Python) oraz wykorzystanie mechanizmów wstawiania wsadowego, np. funkcji ``executemany()`` z biblioteki ``sqlite3`` czy narzędzi ORM pokroju ``SQLAlchemy``. Przesyłanie wielu rekordów w ramach jednego wywołania sieciowego drastycznie ogranicza narzut komunikacyjny, pozwala na lepsze zarządzanie transakcjami serwera bazy danych i znacząco poprawia ogólną wydajność.
 
 Komentarz do procesu wprowadzania danych
 ----------------------------------------
 
-Proces zasilania bazy danych musiał uwzględniać zależności wynikające z więzów integralności referencyjnej. Z tego względu kolejność importu danych nie mogła być przypadkowa i musiała odzwierciedlać strukturę relacyjną modelu.
+Proces zasilania bazy danych musiał uwzględniać zależności wynikające z więzów integralności referencyjnej. Z tego względu kolejność wprowadzania danych za pomocą instrukcji ``INSERT`` nie mogła być przypadkowa i musiała ściśle odzwierciedlać strukturę relacyjną modelu. 
 
 Kolejność wprowadzania danych była następująca:
 
 1. W pierwszej kolejności zaimportowano dane do tabel niezależnych, czyli ``kategorie`` oraz ``klienci``.
-2. Następnie zasilono tabelę ``produkty``. Operacja ta była możliwa dopiero po wcześniejszym utworzeniu kategorii, ponieważ każdy produkt musi być przypisany do istniejącej kategorii.
-3. W kolejnym kroku wprowadzono rekordy do tabeli ``zamowienia``, przypisując je do istniejących klientów.
+2. Następnie zasilono tabelę ``produkty``. Operacja ta była możliwa dopiero po wcześniejszym utworzeniu kategorii, ponieważ każdy produkt musi być przypisany do istniejącej encji nadrzędnej.
+3. W kolejnym kroku wprowadzono rekordy do tabeli ``zamowienia``, przypisując je do istniejących w bazie klientów.
 4. Na końcu uzupełniono tabelę ``szczegoly_zamowienia``, która pełni funkcję encji asocjacyjnej i łączy identyfikatory zamówień oraz produktów. Wymaga to wcześniejszego istnienia obu powiązanych rekordów.
 
 Takie uporządkowanie procesu importu danych wynika bezpośrednio z konstrukcji schematu relacyjnego i stanowi warunek poprawnego zachowania integralności bazy. W praktyce oznacza to, że dane nadrzędne muszą zostać zapisane przed danymi zależnymi.
